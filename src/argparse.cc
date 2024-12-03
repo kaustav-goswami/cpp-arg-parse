@@ -25,7 +25,7 @@ void Argparse::printHelpArgs() {
     //         this->init_counter < this->expected_count);
     for(int i = 0 ; i < this->expected_count; i++) 
         std::cout << "\t\t" << this->all_args[i].param << " "
-                << this->all_args[i].alt_param << "\t"
+                << this->all_args[i].alt_param << "\t\t"
                 << this->all_args[i].help << " "
                 << this->all_args[i].options << std::endl;
     
